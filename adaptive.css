@@ -1,0 +1,181 @@
+@media only screen and (max-width: 932px) {
+    .wrapper {
+        width: 90%;
+    }
+    .header-logo {
+        margin-right: calc(294px + (454 - 294) * ((100vw - 769px) / (932 - 769)));
+    }
+    .team-item-container {
+        max-width: 630px;
+        gap: 20px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+}
+textarea {
+    width: 100%;
+}
+input {
+    width: 100%;
+    margin-bottom: 15px;
+    margin-right: 0;
+}
+button {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 768px) {
+    header .wrapper {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        position: relative;
+    }
+    .header-logo {
+        margin-right: 0;
+    }
+    .header-menu {
+      position: relative;
+      z-index: 99;
+    }
+    .menuToggle{  
+        color: #fff;
+        padding: 10px 15px;
+        cursor: pointer;
+        display: none;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        }
+    .menuToggle{
+            display: block;
+        }
+    .header-menu ul{
+            width: 100vw;
+          right: calc(-31px + (-53 - (-31)) * ((100vw - 320px) / (768 - 320)));
+          top: 35px;
+            display: none;
+            -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                    justify-content: space-between;
+            position: absolute;
+            background: #fafbfc;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 34px;
+        }
+        .header-menu ul li{
+            display: block;
+            cursor: pointer;
+            transition: 1.5s;
+            -webkit-transition: 1.5s;
+            -moz-transition: 1.5s;
+            -ms-transition: 1.5s;
+            -o-transition: 1.5s;
+    }
+    .header-menu ul li:nth-child(1) {
+        margin-right: 0;
+      }
+      .header-menu ul li:nth-child(2) {
+      margin-right: 0;
+      }
+        .header-menu ul li a {
+          font-family: Gotham;
+          font-size: calc(20px + (30 - 20) * ((100vw - 320px) / (768 - 320)));
+          font-weight: 300;
+          line-height: 1.47;
+          letter-spacing: 1.35px;
+          color: #070707;
+        }
+        .icon {
+            right: 0;
+        z-index: 100;
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        }
+        .hamburger {
+        width: 33px;
+        height: 3px;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        background: #262f32;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        display: inline-block;
+        }
+        
+        .hamburger:before,
+        .hamburger:after {
+        content: "";
+        width: 33px;
+        height: 3px;
+        position: absolute;
+        background: #262f32;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        }
+        
+        .hamburger:before {
+        top: -10px;
+        }
+        
+        .hamburger:after {
+        top: 10px;
+        }
+        
+        .icon.active .hamburger {
+        background: rgba(248, 3, 3, 0);
+        width: 20px;
+        }
+        .icon.active .hamburger:before {
+        top: 0;
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+                background-color: rgb(70, 70, 70);
+                width: 20px;
+        }
+        
+        .icon.active .hamburger:after {
+          width: 20px;
+        top: 0;
+        -webkit-transform: rotate(135deg);
+            -ms-transform: rotate(135deg);
+                transform: rotate(135deg);
+                background-color: rgb(70, 70, 70);
+        }
+    .contact-container {
+            display: block;
+        }
+        .map-title, .form-title {
+            margin-bottom: 10px;
+        }
+    .contact-map {
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+iframe {
+    width: 100%;
+}
+}
+@media only screen and (max-width: 588px) {
+    .team-title {
+        width: 100%;
+    }
+.hero-wrapper {
+    width: 90%;
+}
+    .hero h1 {
+        width: 100%;
+    }
+    .work-title {
+        width: 100%;
+    }
+}
